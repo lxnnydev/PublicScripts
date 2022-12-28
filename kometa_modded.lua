@@ -21,7 +21,7 @@ local hi = false
 -- Script tables
 
 local temptable = {
-    version = "1.6.0",
+    version = "1.6.0 Modded",
     MondoCollectTokens = false,
     blackfield = "Ant Field",
     LastFieldColor = 'White',
@@ -1217,7 +1217,7 @@ function makequests()
     end end end end end end)
 end
 
-local ui = library.new(true, "kometa â˜„ï¸ | v"..temptable.version)
+local ui = library.new(true, "kometa modded ( mobile + pc) | v"..temptable.version)
 ui.ChangeToggleKey(Enum.KeyCode.Semicolon)
 
 local hometab = ui:Category("Home")
@@ -1236,6 +1236,7 @@ local main = hometab:Sector("Main")
 main:Cheat("Label", "Thanks you for using our script!")
 main:Cheat("Label", "Another official fork of kocmoc by notweuz")
 main:Cheat("Label", "Script by mrdevl, .anon, cryptozen and notweuz")
+main:Cheat("Label", "Modded by @DeltaExploits on youtube")
 main:Cheat("Label", "Script version: "..temptable.version)
 --information:Cheat("Button", "Discord Invite", function() setclipboard("https://discord.gg/2a5gVpcpzv") end)
 --information:Cheat("Button", "Donation", function() setclipboard("https://qiwi.com/n/W33UZ") end)
