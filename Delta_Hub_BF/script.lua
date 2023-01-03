@@ -1,4 +1,4 @@
-local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/lxnnydev/PublicScripts/main/Delta_Hub_BF/uilib.lua")()
 
 local win = Flux:Window("DELTA HUB", "Blox Fruits", Color3.fromRGB(76, 82, 255), Enum.KeyCode.LeftControl)
 local tab = win:Tab("Blox Fruits", "http://www.roblox.com/asset/?id=6023426915")
